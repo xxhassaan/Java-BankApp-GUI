@@ -1,18 +1,38 @@
-## Getting Started
+Features
+1.Welcome Page
+2.User Login
+3.Main Menu with options for deposits, withdrawals, and account information
+4.Modular account handling through the BankAccount interface and UncompletedSavingsAccount class
+5.Simple and accessible design with a large, purple-background window
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+Requirements
 
-The workspace contains two folders by default, where:
+1.Java Development Kit (JDK) version 11 or higher
+2.Java Swing Library (included with JDK)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Setup
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Compile the Java files:
+2. Open the terminal or command prompt in the project folder.
+3. Run javac BankApp.java to compile.
+4. Run the application:
+5. Use java BankApp to start.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Application Usage
+
+1.Login:
+
+Default Username: user
+Default Password: password
+Account Details:
+
+2.Default Account Balance: $100
+
+3.Main Menu Options:
+
+Deposit: Add funds to the account.
+Withdraw: Remove funds from the account.
+View User Information: Access account and personal details
